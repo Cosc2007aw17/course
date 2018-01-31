@@ -1,4 +1,4 @@
-package all.three;
+package binarytree;
 
 /*
  *  Java Program to Implement Binary Tree
