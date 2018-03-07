@@ -16,7 +16,7 @@ public class TestPriorityQueue {
         priorityQueue.enqueue(patient4);
 
         while (priorityQueue.getSize() > 0) {
-            System.out.print(priorityQueue.dequeue() + " ");
+            System.out.print(priorityQueue.poll() + " ");
         }
     }
 
