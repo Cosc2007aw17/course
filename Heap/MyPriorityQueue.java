@@ -4,11 +4,11 @@ public class MyPriorityQueue<E extends Comparable<E>> {
 
     private Heap<E> heap = new Heap<E>();
 
-    public void poll(E newObject) {
+    public void enqueue(E newObject) {
         heap.add(newObject);
     }
 
-    public E dequeue() {
+    public E poll() {
         return heap.remove();
     }
 
