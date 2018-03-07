@@ -10,10 +10,10 @@ public class TestPriorityQueue {
 
         MyPriorityQueue<Patient> priorityQueue
                 = new MyPriorityQueue<Patient>();
-        priorityQueue.poll(patient1);
-        priorityQueue.poll(patient2);
-        priorityQueue.poll(patient3);
-        priorityQueue.poll(patient4);
+        priorityQueue.enqueue(patient1);
+        priorityQueue.enqueue(patient2);
+        priorityQueue.enqueue(patient3);
+        priorityQueue.enqueue(patient4);
 
         while (priorityQueue.getSize() > 0) {
             System.out.print(priorityQueue.dequeue() + " ");
